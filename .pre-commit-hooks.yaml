@@ -1,0 +1,7 @@
+-   id: check-todo
+    name: Check Todo
+    description: Checks for 'TODO' in staged files before committing.
+    entry: python check_todo.py
+    language: python
+    stages: [commit-msg]
+    always_run: true
