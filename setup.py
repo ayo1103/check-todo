@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="check-todo",
-    version="1.0.5",
+    version="1.0.6",
     py_modules=["check_todo"],
     install_requires=["pre-commit"],
     entry_points={

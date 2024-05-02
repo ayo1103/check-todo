@@ -24,5 +24,8 @@ def check_for_todo():
         print(f"Failed to get staged files: {e}")
         sys.exit(1)
 
-if __name__ == "__main__":
+def main():
     check_for_todo()
+
+if __name__ == "__main__":
+    main()
