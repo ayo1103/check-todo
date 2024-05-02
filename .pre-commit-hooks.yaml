@@ -1,7 +1,7 @@
 -   id: check-todo
     name: Check Todo
     description: Checks for 'TODO' in staged files before committing.
-    entry: check_todo.py
+    entry: check-todo  # 使用 setup.py 中定义的 console_script
     language: python
     stages: [commit]
     always_run: true
