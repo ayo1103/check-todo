@@ -1,8 +1,8 @@
 from setuptools import setup
 
 setup(
-    name="check-todo-hook",
-    version="1.0.3",
+    name="check-todo",
+    version="1.0.4",
     py_modules=["check_todo"],
     install_requires=["pre-commit"],
     entry_points={
