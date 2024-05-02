@@ -1,8 +1,0 @@
-repos:
-  - repo: local
-    hooks:
-      - id: check-todo
-        name: Check for TODO in files
-        entry: python check_todo.py
-        language: system
-        types: [python]
