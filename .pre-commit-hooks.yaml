@@ -3,5 +3,5 @@
     description: Checks for 'TODO' in staged files before committing.
     entry: python check_todo.py
     language: python
-    stages: [commit-msg]
+    stages: [commit]
     always_run: true
