@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="check-todo",
-    version="1.0.1",
+    version="1.0.2",
     py_modules=["check_todo"],
     entry_points={
         "console_scripts": [
